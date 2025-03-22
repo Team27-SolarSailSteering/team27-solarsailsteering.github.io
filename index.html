@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ACS3 Thrust Vector Reorientation</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Geist:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <button class="theme-toggle" aria-label="Toggle dark mode">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path d="M12 2.25a.75.75 0 01.75.75v2.25a.75.75 0 01-1.5 0V3a.75.75 0 01.75-.75zM7.5 12a4.5 4.5 0 119 0 4.5 4.5 0 01-9 0zM18.894 6.166a.75.75 0 00-1.06-1.06l-1.591 1.59a.75.75 0 101.06 1.061l1.591-1.59zM21.75 12a.75.75 0 01-.75.75h-2.25a.75.75 0 010-1.5H21a.75.75 0 01.75.75zM17.834 18.894a.75.75 0 001.06-1.06l-1.59-1.591a.75.75 0 10-1.061 1.06l1.59 1.591zM12 18a.75.75 0 01.75.75V21a.75.75 0 01-1.5 0v-2.25A.75.75 0 0112 18zM7.758 17.303a.75.75 0 00-1.061-1.06l-1.591 1.59a.75.75 0 001.06 1.061l1.591-1.59zM6 12a.75.75 0 01-.75.75H3a.75.75 0 010-1.5h2.25A.75.75 0 016 12zM6.697 7.758a.75.75 0 001.06-1.061l-1.59-1.591a.75.75 0 00-1.061 1.06l1.59 1.591z" />
+        </svg>
+    </button>
+
+    <header>
+        <nav class="navbar">
+            <a href="#" class="logo">
+                <div class="logo-icon"></div>
+                <span>LOGO NAME</span>
+            </a>
+            <div class="nav-links">
+                <a href="#about">About</a>
+                <a href="#technology">Technology</a>
+                <a href="#milestones">Milestones</a>
+                <a href="#team">Team</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </nav>
+
+        <div class="hero">
+            <div class="hero-content">
+                <h1 class="hero-title">Solar Sail Steering</h1>
+                <p class="hero-subtitle fluid">Revolutionizing solar sail technology with servo motor actuators for precise thrust vector control and enhanced maneuverability.</p>
+                <div class="cta-container">
+                    <a href="#about" class="cta-button">Discover More</a>
+                    <a href="#contact" class="cta-button secondary">Contact Us</a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="placeholder-cad">
+                    <div class="placeholder-text">
+                        CAD Render Coming Soon
+                        <br><br>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="scroll-indicator">
+            <p class="scroll-text">Scroll Down</p>
+            <div class="scroll-icon"></div>
+        </div>
+    </header>
+
+    <section id="about" class="content-section" data-scroll>
+        <div class="section-header">
+            <h2 class="section-title fluid">About Our Project</h2>
+            <p class="section-subtitle fluid">Lorem ipsum</p>
+        </div>
+
+        <div class="about-content" style="max-width: 800px; margin: 0 auto; text-align: center;">
+            <p style="font-size: 1.2rem; margin-bottom: 2rem; color: var(--text-color-light);">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ultricies id felis vitae eleifend. Aenean lectus nibh, convallis a laoreet in, blandit quis augue.
+            </p>
+        </div>
+    </section>
+
+    <section id="technology" class="content-section" data-scroll>
+        <div class="section-header">
+            <h2 class="section-title fluid">Our Technology</h2>
+            <p class="section-subtitle fluid">Lorem ipsum</p>
+        </div>
+
+        <div class="technology-grid">
+            <div class="technology-card" data-scroll>
+                <img src="/api/placeholder/600/300" alt="Marketable Component 1" class="card-img">
+                <div class="card-content">
+                    <h3 class="card-title fluid">Marketable Component 1</h3>
+                    <p class="card-text fluid">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ultricies id felis vitae eleifend. Aenean lectus nibh, convallis a laoreet in, blandit quis augue.</p>
+                    <a href="#" class="card-link">
+                        Learn more
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                            <path fill-rule="evenodd" d="M3 10a.75.75 0 01.75-.75h10.638L10.23 5.29a.75.75 0 111.04-1.08l5.5 5.25a.75.75 0 010 1.08l-5.5 5.25a.75.75 0 11-1.04-1.08l4.158-3.96H3.75A.75.75 0 013 10z" clip-rule="evenodd" />
+                        </svg>
+                    </a>
+                </div>
+            </div>
+
+            <div class="technology-card" data-scroll>
+                <img src="/api/placeholder/600/300" alt="Marketable Component 2" class="card-img">
+                <div class="card-content">
+                    <h3 class="card-title fluid">Marketable Component 2</h3>
+                    <p class="card-text fluid">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ultricies id felis vitae eleifend. Aenean lectus nibh, convallis a laoreet in, blandit quis augue.</p>
+                    <a href="#" class="card-link">
+                        Learn more
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                            <path fill-rule="evenodd" d="M3 10a.75.75 0 01.75-.75h10.638L10.23 5.29a.75.75 0 111.04-1.08l5.5 5.25a.75.75 0 010 1.08l-5.5 5.25a.75.75 0 11-1.04-1.08l4.158-3.96H3.75A.75.75 0 013 10z" clip-rule="evenodd" />
+                        </svg>
+                    </a>
+                </div>
+            </div>
+
+            <div class="technology-card" data-scroll>
+                <img src="/api/placeholder/600/300" alt="Marketable Component 3" class="card-img">
+                <div class="card-content">
+                    <h3 class="card-title fluid">Marketable Component 3</h3>
+                    <p class="card-text fluid">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ultricies id felis vitae eleifend. Aenean lectus nibh, convallis a laoreet in, blandit quis augue.</p>
+                    <a href="#" class="card-link">
+                        Learn more
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                            <path fill-rule="evenodd" d="M3 10a.75.75 0 01.75-.75h10.638L10.23 5.29a.75.75 0 111.04-1.08l5.5 5.25a.75.75 0 010 1.08l-5.5 5.25a.75.75 0 11-1.04-1.08l4.158-3.96H3.75A.75.75 0 013 10z" clip-rule="evenodd" />
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="milestones" class="content-section" data-scroll>
+        <div class="section-header">
+            <h2 class="section-title fluid">Project Milestones</h2>
+            <p class="section-subtitle fluid">Lorem ipsum.</p>
+        </div>
+
+        <div class="progress-container">
+            <div class="progress-line"></div>
+            
+            <div class="progress-item" data-scroll>
+                <div class="progress-date">Stage 1</div>
+                <div class="progress-icon">
+                    <div class="progress-dot">1</div>
+                </div>
+                <div class="progress-content">
+                    <h3 class="progress-title fluid">Metric Research Completion</h3>
+                    <p class="progress-description fluid">Finalizing project plan, allocating resources, and establishing comprehensive performance metrics and system specifications.</p>
+                </div>
+            </div>
+            
+            <div class="progress-item" data-scroll>
+                <div class="progress-date">Stage 2</div>
+                <div class="progress-icon">
+                    <div class="progress-dot">2</div>
+                </div>
+                <div class="progress-content">
+                    <h3 class="progress-title fluid">CAD Model Completion</h3>
+                    <p class="progress-description fluid">Developing detailed CAD models of the servo-actuated booms and integrated solar sail system based on rigorous engineering analysis.</p>
+                </div>
+            </div>
+            
+            <div class="progress-item" data-scroll>
+                <div class="progress-date">Stage 4</div>
+                <div class="progress-icon">
+                    <div class="progress-dot">3</div>
+                </div>
+                <div class="progress-content">
+                    <h3 class="progress-title fluid">FEA and CFD Analysis</h3>
+                    <p class="progress-description fluid">Conducting simulations to verify structural integrity and environmental interactions, with focus on stress distribution verification.</p>
+                </div>
+            </div>
+            
+            <div class="progress-item" data-scroll>
+                <div class="progress-date">Stage 5</div>
+                <div class="progress-icon">
+                    <div class="progress-dot">4</div>
+                </div>
+                <div class="progress-content">
+                    <h3 class="progress-title fluid">Prototype Development</h3>
+                    <p class="progress-description fluid">Assembling and testing the final prototype of the servo-actuated solar sail system with complete documentation and performance analysis.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<section id="team" class="content-section" data-scroll>
+    <div class="section-header">
+        <h2 class="section-title fluid">Meet Our Team</h2>
+        <p class="section-subtitle fluid">The engineers and scientists making solar sail innovation possible.</p>
+    </div>
+
+    <div class="team-grid">
+        <div class="team-card" data-scroll>
+            <div class="team-avatar">
+                <img src="/api/placeholder/120/120" alt="Team Member">
+            </div>
+            <h3 class="team-name fluid">Lorem Ipsum</h3>
+            <p class="team-role fluid">Principal Investigator</p>
+            <p class="team-bio fluid">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sit amet lectus vitae tellus faucibus gravida in vel nunc.</p>
+            <div class="social-links">
+                <a href="#" class="social-link">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
+                        <path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.32 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.79M6.88 8.56a1.68 1.68 0 0 0 1.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 0 0-1.69 1.69c0 .93.76 1.68 1.69 1.68m1.39 9.94v-8.37H5.5v8.37h2.77z" />
+                    </svg>
+                </a>
+                <a href="#" class="social-link">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
+                        <path d="M12 2a10 10 0 0 0-3.16 19.5c.5.08.66-.22.66-.48l-.01-1.7c-2.78.6-3.37-1.34-3.37-1.34-.46-1.16-1.11-1.47-1.11-1.47-.9-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.9 1.52 2.34 1.08 2.91.83.1-.65.35-1.09.63-1.34-2.22-.25-4.55-1.11-4.55-4.94 0-1.1.39-1.99 1.03-2.69a3.6 3.6 0 0 1 .1-2.64s.84-.27 2.75 1.02a9.58 9.58 0 0 1 5 0c1.91-1.3 2.75-1.02 2.75-1.02.55 1.37.2 2.4.1 2.64.64.7 1.03 1.6 1.03 2.69 0 3.84-2.34 4.68-4.57 4.93.36.31.69.92.69 1.85V21c0 .27.16.59.67.5A10 10 0 0 0 12 2z" />
+                    </svg>
+                </a>
+            </div>
+        </div>
+
+        <div class="team-card" data-scroll>
+            <div class="team-avatar">
+                <img src="/api/placeholder/120/120" alt="Team Member">
+            </div>
+            <h3 class="team-name fluid">Dolor Sit</h3>
+            <p class="team-role fluid">Project Manager</p>
+            <p class="team-bio fluid">Maecenas hendrerit eros at fringilla vulputate. Nulla facilisi. Ut vel arcu erat. Fusce eget sapien vel ipsum efficitur.</p>
+            <div class="social-links">
+                <a href="#" class="social-link">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
+                        <path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.32 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.79M6.88 8.56a1.68 1.68 0 0 0 1.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 0 0-1.69 1.69c0 .93.76 1.68 1.69 1.68m1.39 9.94v-8.37H5.5v8.37h2.77z" />
+                    </svg>
+                </a>
+                <a href="#" class="social-link">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
+                        <path d="M12 2a10 10 0 0 0-3.16 19.5c.5.08.66-.22.66-.48l-.01-1.7c-2.78.6-3.37-1.34-3.37-1.34-.46-1.16-1.11-1.47-1.11-1.47-.9-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.9 1.52 2.34 1.08 2.91.83.1-.65.35-1.09.63-1.34-2.22-.25-4.55-1.11-4.55-4.94 0-1.1.39-1.99 1.03-2.69a3.6 3.6 0 0 1 .1-2.64s.84-.27 2.75 1.02a9.58 9.58 0 0 1 5 0c1.91-1.3 2.75-1.02 2.75-1.02.55 1.37.2 2.4.1 2.64.64.7 1.03 1.6 1.03 2.69 0 3.84-2.34 4.68-4.57 4.93.36.31.69.92.69 1.85V21c0 .27.16.59.67.5A10 10 0 0 0 12 2z" />
+                    </svg>
+                </a>
+            </div>
+        </div>
+
+        <div class="team-card" data-scroll>
+            <div class="team-avatar">
+                <img src="/api/placeholder/120/120" alt="Team Member">
+            </div>
+            <h3 class="team-name fluid">Amet Consec</h3>
+            <p class="team-role fluid">Team Lead</p>
+            <p class="team-bio fluid">Phasellus iaculis lectus eu metus imperdiet, sit amet varius nulla ultricies. Vivamus pulvinar imperdiet neque et porta.</p>
+            <div class="social-links">
+                <a href="#" class="social-link">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
+                        <path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.32 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.79M6.88 8.56a1.68 1.68 0 0 0 1.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 0 0-1.69 1.69c0 .93.76 1.68 1.69 1.68m1.39 9.94v-8.37H5.5v8.37h2.77z" />
+                    </svg>
+                </a>
+                <a href="#" class="social-link">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
+                        <path d="M12 2a10 10 0 0 0-3.16 19.5c.5.08.66-.22.66-.48l-.01-1.7c-2.78.6-3.37-1.34-3.37-1.34-.46-1.16-1.11-1.47-1.11-1.47-.9-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.9 1.52 2.34 1.08 2.91.83.1-.65.35-1.09.63-1.34-2.22-.25-4.55-1.11-4.55-4.94 0-1.1.39-1.99 1.03-2.69a3.6 3.6 0 0 1 .1-2.64s.84-.27 2.75 1.02a9.58 9.58 0 0 1 5 0c1.91-1.3 2.75-1.02 2.75-1.02.55 1.37.2 2.4.1 2.64.64.7 1.03 1.6 1.03 2.69 0 3.84-2.34 4.68-4.57 4.93.36.31.69.92.69 1.85V21c0 .27.16.59.67.5A10 10 0 0 0 12 2z" />
+                    </svg>
+                </a>
+            </div>
+        </div>
+
+        <div class="team-card" data-scroll>
+            <div class="team-avatar">
+                <img src="/api/placeholder/120/120" alt="Team Member">
+            </div>
+            <h3 class="team-name fluid">Tetur Adipis</h3>
+            <p class="team-role fluid">Team Lead</p>
+            <p class="team-bio fluid">Sed fringilla ex eget diam feugiat, eget hendrerit nisl varius. Vestibulum ante ipsum primis in faucibus orci luctus.</p>
+            <div class="social-links">
+                <a href="#" class="social-link">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
+                        <path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.32 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.79M6.88 8.56a1.68 1.68 0 0 0 1.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 0 0-1.69 1.69c0 .93.76 1.68 1.69 1.68m1.39 9.94v-8.37H5.5v8.37h2.77z" />
+                    </svg>
+                </a>
+                <a href="#" class="social-link">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
+                        <path d="M12 2a10 10 0 0 0-3.16 19.5c.5.08.66-.22.66-.48l-.01-1.7c-2.78.6-3.37-1.34-3.37-1.34-.46-1.16-1.11-1.47-1.11-1.47-.9-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.9 1.52 2.34 1.08 2.91.83.1-.65.35-1.09.63-1.34-2.22-.25-4.55-1.11-4.55-4.94 0-1.1.39-1.99 1.03-2.69a3.6 3.6 0 0 1 .1-2.64s.84-.27 2.75 1.02a9.58 9.58 0 0 1 5 0c1.91-1.3 2.75-1.02 2.75-1.02.55 1.37.2 2.4.1 2.64.64.7 1.03 1.6 1.03 2.69 0 3.84-2.34 4.68-4.57 4.93.36.31.69.92.69 1.85V21c0 .27.16.59.67.5A10 10 0 0 0 12 2z" />
+                    </svg>
+                </a>
+            </div>
+        </div>
+
+        <div class="team-card" data-scroll>
+            <div class="team-avatar">
+                <img src="/api/placeholder/120/120" alt="Team Member">
+            </div>
+            <h3 class="team-name fluid">Cing Elit</h3>
+            <p class="team-role fluid">Team Lead</p>
+            <p class="team-bio fluid">Cras ut tempus nunc. Mauris non ipsum in quam dapibus ultricies. Aenean efficitur dui sit amet odio facilisis, ut tempus magna.</p>
+            <div class="social-links">
+                <a href="#" class="social-link">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
+                        <path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.32 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.79M6.88 8.56a1.68 1.68 0 0 0 1.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 0 0-1.69 1.69c0 .93.76 1.68 1.69 1.68m1.39 9.94v-8.37H5.5v8.37h2.77z" />
+                    </svg>
+                </a>
+                <a href="#" class="social-link">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
+                        <path d="M12 2a10 10 0 0 0-3.16 19.5c.5.08.66-.22.66-.48l-.01-1.7c-2.78.6-3.37-1.34-3.37-1.34-.46-1.16-1.11-1.47-1.11-1.47-.9-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.9 1.52 2.34 1.08 2.91.83.1-.65.35-1.09.63-1.34-2.22-.25-4.55-1.11-4.55-4.94 0-1.1.39-1.99 1.03-2.69a3.6 3.6 0 0 1 .1-2.64s.84-.27 2.75 1.02a9.58 9.58 0 0 1 5 0c1.91-1.3 2.75-1.02 2.75-1.02.55 1.37.2 2.4.1 2.64.64.7 1.03 1.6 1.03 2.69 0 3.84-2.34 4.68-4.57 4.93.36.31.69.92.69 1.85V21c0 .27.16.59.67.5A10 10 0 0 0 12 2z" />
+                    </svg>
+                </a>
+            </div>
+        </div>
+
+        <div class="team-card" data-scroll>
+            <div class="team-avatar">
+                <img src="/api/placeholder/120/120" alt="Team Member">
+            </div>
+            <h3 class="team-name fluid">Nullam Vel</h3>
+            <p class="team-role fluid">Team Lead</p>
+            <p class="team-bio fluid">Donec efficitur risus vitae justo ultrices, vel molestie orci lobortis. Fusce eleifend nisi eget ante congue, vel gravida velit.</p>
+            <div class="social-links">
+                <a href="#" class="social-link">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
+                        <path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.32 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.79M6.88 8.56a1.68 1.68 0 0 0 1.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 0 0-1.69 1.69c0 .93.76 1.68 1.69 1.68m1.39 9.94v-8.37H5.5v8.37h2.77z" />
+                    </svg>
+                </a>
+                <a href="#" class="social-link">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
+                        <path d="M12 2a10 10 0 0 0-3.16 19.5c.5.08.66-.22.66-.48l-.01-1.7c-2.78.6-3.37-1.34-3.37-1.34-.46-1.16-1.11-1.47-1.11-1.47-.9-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.9 1.52 2.34 1.08 2.91.83.1-.65.35-1.09.63-1.34-2.22-.25-4.55-1.11-4.55-4.94 0-1.1.39-1.99 1.03-2.69a3.6 3.6 0 0 1 .1-2.64s.84-.27 2.75 1.02a9.58 9.58 0 0 1 5 0c1.91-1.3 2.75-1.02 2.75-1.02.55 1.37.2 2.4.1 2.64.64.7 1.03 1.6 1.03 2.69 0 3.84-2.34 4.68-4.57 4.93.36.31.69.92.69 1.85V21c0 .27.16.59.67.5A10 10 0 0 0 12 2z" />
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-info">
+                <div class="footer-logo">
+                    <div class="logo-icon"></div>
+                    <span>LOGO NAME</span>
+                </div>
+                <p class="footer-description fluid">Revolutionizing solar sail technology with servo motor actuators for precise thrust vector control and enhanced deep space maneuverability.</p>
+            </div>
+            
+            <div>
+                <h3 class="footer-heading fluid">Navigation</h3>
+                <ul class="footer-links fluid">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#technology">Technology</a></li>
+                    <li><a href="#milestones">Milestones</a></li>
+                    <li><a href="#team">Team</a></li>
+                </ul>
+            </div>
+            
+            <div>
+                <h3 class="footer-heading fluid">Resources</h3>
+                <ul class="footer-links fluid">
+                    <li><a href="#">Research Papers</a></li>
+                    <li><a href="#">Technical Documentation</a></li>
+                    <li><a href="#">Project Updates</a></li>
+                    <li><a href="#">Media Gallery</a></li>
+                </ul>
+            </div>
+            
+            <div>
+                <h3 class="footer-heading fluid">Contact</h3>
+                <ul class="footer-links fluid">
+                    <li><a href="mailto:contact@acs3project.org">email@email.org</a></li>
+                    <li><a href="tel:+15551234567">(123) 456-7890</a></li>
+                    <li><a href="#">Lorem Ipsum</a></li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <p class="footer-copyright fluid">© 2025 Lorem Ipsum. All rights reserved.</p>
+            
+            <div class="footer-social">
+                <a href="#" class="footer-social-link">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 24 24">
+                        <path d="M22.46 6c-.77.35-1.6.58-2.46.69.88-.53 1.56-1.37 1.88-2.38-.83.5-1.75.85-2.72 1.05C18.37 4.5 17.26 4 16 4c-2.35 0-4.27 1.92-4.27 4.29 0 .34.04.67.11.98C8.28 9.09 5.11 7.38 3 4.79c-.37.63-.58 1.37-.58 2.15 0 1.49.75 2.81 1.91 3.56-.71 0-1.37-.2-1.95-.5v.03c0 2.08 1.48 3.82 3.44 4.21a4.22 4.22 0 0 1-1.93.07 4.28 4.28 0 0 0 4 2.98 8.52 8.52 0 0 1-5.33 1.84c-.34 0-.68-.02-1.02-.06C3.44 20.29 5.7 21 8.12 21 16 21 20.33 14.46 20.33 8.79c0-.19 0-.37-.01-.56.84-.6 1.56-1.36 2.14-2.23z" />
+                    </svg>
+                </a>
+                <a href="#" class="footer-social-link">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 24 24">
+                        <path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.32 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.79M6.88 8.56a1.68 1.68 0 0 0 1.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 0 0-1.69 1.69c0 .93.76 1.68 1.69 1.68m1.39 9.94v-8.37H5.5v8.37h2.77z" />
+                    </svg>
+                </a>
+                <a href="#" class="footer-social-link">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 24 24">
+                        <path d="M12 2a10 10 0 0 0-3.16 19.5c.5.08.66-.22.66-.48l-.01-1.7c-2.78.6-3.37-1.34-3.37-1.34-.46-1.16-1.11-1.47-1.11-1.47-.9-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.9 1.52 2.34 1.08 2.91.83.1-.65.35-1.09.63-1.34-2.22-.25-4.55-1.11-4.55-4.94 0-1.1.39-1.99 1.03-2.69a3.6 3.6 0 0 1 .1-2.64s.84-.27 2.75 1.02a9.58 9.58 0 0 1 5 0c1.91-1.3 2.75-1.02 2.75-1.02.55 1.37.2 2.4.1 2.64.64.7 1.03 1.6 1.03 2.69 0 3.84-2.34 4.68-4.57 4.93.36.31.69.92.69 1.85V21c0 .27.16.59.67.5A10 10 0 0 0 12 2z" />
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Add scroll detection for navbar
+        window.addEventListener('scroll', () => {
+            const navbar = document.querySelector('.navbar');
+            if (window.scrollY > 50) {
+                navbar.classList.add('scrolled');
+            } else {
+                navbar.classList.remove('scrolled');
+            }
+        });
+
+        // Handle the content list animation
+        const contentList = document.querySelector('.content-list ul');
+        if (contentList) {
+            const items = contentList.querySelectorAll('li');
+            const observerOptions = {
+                root: null,
+                rootMargin: '0px',
+                threshold: 0.6
+            };
+
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('active');
+                    } else {
+                        entry.target.classList.remove('active');
+                    }
+                });
+            }, observerOptions);
+
+            items.forEach(item => {
+                observer.observe(item);
+            });
+        }
+
+        // Theme toggle
+        const themeToggle = document.querySelector('.theme-toggle');
+        const body = document.body;
+
+        // Check for saved theme preference or respect OS preference
+        const savedTheme = localStorage.getItem('theme');
+        if (savedTheme === 'dark') {
+            body.setAttribute('data-theme', 'dark');
+        } else if (savedTheme === 'light') {
+            body.removeAttribute('data-theme');
+        }
+
+        themeToggle.addEventListener('click', () => {
+            if (body.hasAttribute('data-theme')) {
+                body.removeAttribute('data-theme');
+                localStorage.setItem('theme', 'light');
+            } else {
+                body.setAttribute('data-theme', 'dark');
+                localStorage.setItem('theme', 'dark');
+            }
+        });
+    </script>
+</body>
+</html>
